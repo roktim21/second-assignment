@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+  }
+
+  .bg-1{
+    background-color: rgba(17, 17, 17, 1);
+
+  }
+
+  .main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1060px;
+    margin: 0 auto;
+  }
+
+  .fitness{
+    color: #E6533C;
+    font-weight: 800;
+  }
+
+  .nav-items{
+    display: flex;
+    list-style: none;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+  }
+
+  .nav-item{
+    margin-right: 65px;
+    background-color: rgba(17, 17, 17, 1);
+    padding: 8px 20px;
+    border-radius: 46px;
+  }
+
+  .home{
+    background-color: #E6533C;
+    padding: 8px 20px;
+    border-radius: 46px;
+  }
+
+  .intro{
+    display: flex;
+    gap: 88px;
+  }
+
+  #intro-header{
+    font-weight: 900;
+    font-size: 7em;
+    margin-bottom: 28px;
+  }
+/* Shared styles */
+  .details{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 16px;
+    text-align: start;
+  }
+
+  .btn-1{
+    background-color: #E6533C;
+    padding: 16px 46px;
+    border-radius: 46px;
+    color: White;
+    font-weight: 600;
+    font-size: 1.5em;
+  }
+
+  #btn-2{
+        background-color: rgba(17, 17, 17, 1);;
+        padding: 16px 46px;
+        border-radius: 46px;
+        color: White;
+        font-weight: 600;
+        font-size: 1.5em;
+  }
+
+  /*  */
+
+#video-tuto{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(48, 48, 48, 0.54);
+    text-align: center;
+    
+    /* padding: 20px 23px 20px 75px; */
+    max-width: 206px;
+    border-radius: 12px;
+    margin-left: 774px ;
+    margin-top: -170px;
+}
+
+#number{
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+#workout-tuto{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(48, 48, 48, 0.54);
+    text-align: center;
+    max-width: 206px;
+    border-radius: 12px;
+    margin-left: 1100px ;
+    margin-top: -320px;
+}
+
+#number-2{
+    font-size: 2.5em;
+    font-weight: 800;
+}
